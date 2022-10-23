@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #252836;
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+#header .header {
+  display: flex;
+}
+#header .header--hero {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  font-size: 35px;
+  width: 80px;
+  text-align: center;
+  padding-top: 20px;
+  background: #1F1D2B;
+}
+#header .header--hero--icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #1F1D2B;
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  border-radius: 10px;
+  transition: 0.7s;
+}
+#header .header--hero--icon:hover {
+  background: #252836;
+  width: 80px;
+  height: 80px;
+  color: white;
+  border-radius: 8px;
+}
+#header .header--hero--icon ion-icon {
+  color: #EA7C69;
+  transition: 0.4s;
+}
+#header .header--hero--icon ion-icon:hover {
+  visibility: visible;
+  color: white;
+  background: #EA7C69;
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+}
+#header .header--nav {
+  display: flex;
+  justify-content: space-between;
+  width: 800px;
+  padding: 20px 100px;
+}
+#header .header--nav h1 {
+  font-family: "Barlow", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  color: white;
+  padding-bottom: 10px;
+}
+#header .header--nav p {
+  font-family: "Barlow", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #E0E6E9;
+}
+#header .header--nav--block {
+  position: relative;
+}
+#header .header--nav--block input {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding-left: 40px;
+  width: 240px;
+  height: 48px;
+  background: #2D303E;
+  border: 1px solid #393C49;
+  border-radius: 8px;
+  outline: none;
+  font-size: 18px;
+  color: white;
+}
+#header .header--nav--block ion-icon {
+  position: absolute;
+  color: white;
+  font-size: 20px;
+  top: 15px;
+  left: 10px;
+}
+
+#eror404 .navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+#eror404 .navbar--hero h1 {
+  color: white;
+  font-size: 80px;
+  padding-top: 200px;
+  font-weight: 500;
+}
+#eror404 .navbar--hero h2 {
+  font-size: 60px;
+  color: white;
+  padding-top: 30px;
+  font-weight: 500;
+  transition: 0.4s;
+}
+#eror404 .navbar--hero p {
+  padding-top: 30px;
+  font-size: 50px;
+  color: white;
+  font-weight: 500;
+}
+
+/*# sourceMappingURL=report.css.map */

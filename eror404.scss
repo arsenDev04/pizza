@@ -1,0 +1,125 @@
+@import "global";
+
+#header {
+  .header {
+    display: flex;
+    &--hero {
+      position: fixed;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      height: 100%;
+      font-size: 35px;
+      width: 80px;
+      text-align: center;
+      padding-top: 20px;
+      background: #1F1D2B;
+      &--icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #1F1D2B;
+        width: 80px;
+        height: 80px;
+        text-align: center;
+        border-radius: 10px;
+        transition: .70s;
+        &:hover {
+          background: #252836;
+          width: 80px;
+          height: 80px;
+          color: white;
+          border-radius: 8px;
+        }
+        ion-icon{
+          color: #EA7C69;
+          transition:.4s;
+          &:hover{
+            visibility: visible;
+            color: white;
+            background: #EA7C69;
+            width: 40px;
+            height: 40px;
+            border-radius: 5px;
+          }
+        }
+      }
+    }
+    &--nav{
+      display: flex;
+      justify-content: space-between;
+      width: 800px;
+      padding: 20px 100px;
+
+      h1{
+        font-family: 'Barlow',sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 28px;
+        color: white;
+        padding-bottom: 10px;
+      }
+      p{
+        font-family: 'Barlow',sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        color: #E0E6E9;
+      }
+      &--block{
+        position: relative;
+        input{
+          display: flex;
+          flex-direction: row;
+          align-items: flex-start;
+          padding-left: 40px;
+          width: 240px;
+          height: 48px;
+          background: #2D303E;
+          border: 1px solid #393C49;
+          border-radius: 8px;
+          outline: none;
+          font-size: 18px;
+          color: white;
+        }
+        ion-icon{
+          position: absolute;
+          color: white;
+          font-size: 20px;
+          top: 15px;
+          left: 10px;
+        }
+      }
+    }
+  }
+}
+
+#eror404{
+  .navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    &--hero{
+      h1{
+        color: white;
+        font-size: 80px;
+        padding-top: 200px;
+        font-weight: 500;
+      }
+      h2{
+        font-size: 60px;
+        color:white;
+        padding-top: 30px;
+        font-weight: 500;
+        transition:.4s;
+      }
+      p{
+        padding-top: 30px;
+        font-size: 50px;
+        color: white;
+        font-weight: 500;
+      }
+    }
+  }
+}

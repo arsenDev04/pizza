@@ -1,0 +1,198 @@
+@media (max-width: 1440px){
+    .header{
+        width: 90%;
+    }
+    .meny{
+        width: 90%;
+    }
+
+}
+
+@media (max-width: 1200px){
+    .header--nav{
+        width: 700px;
+    }
+    .header--nav--block{
+        width: 10%;
+    }
+    .meny--hero{
+        width: 1080px;
+    }
+    .meny--nav{
+        width: 1080px;
+    }
+    .meny--navbar--block--block1{
+        margin-left:300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .meny--navbar{
+        width: 1080px;
+    }
+    .meny--navbar--block--block{
+        position: absolute;
+        top: 640px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 20;
+}
+
+}
+
+@media (max-width: 1024px){
+.header{
+    width: 90%;
+}
+
+    .header--nav{
+        width: 680px;
+    }
+    .header--nav--block{
+        width: 10%;
+    }
+    .meny--hero{
+        width: 900px;
+    }
+    .meny--nav{
+        width: 900px;
+    }
+    .meny--navbar--block--block1{
+        margin-left:300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .meny--navbar{
+        width: 900px;
+    }
+    .meny--navbar--block--block{
+        position: absolute;
+        top: 640px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 20;
+
+    }
+.meny{
+
+}
+.meny--navbar--block--block1{
+    /*display: none;*/
+    margin-left: 184px;
+}
+}
+
+@media (max-width: 992px){
+.header{
+    width: 90%;
+}
+    .header--nav{
+        width: 640px;
+    }
+    .meny--hero{
+        width: 800px;
+    }
+.meny{
+    width: 90%;
+}
+}
+
+@media (max-width: 768px){
+.header{
+    width: 90%;
+}
+    .header--nav{
+        width: 390px;
+    }
+    .meny--hero{
+        width: 630px;
+    }
+    .meny--nav{
+        width: 635px;
+    }
+    .meny--navbar{
+        width: 630px;
+        flex-wrap: wrap;
+    }
+.meny{
+    width: 90%;
+}
+}
+
+@media (max-width: 576px){
+.header{
+    width: 90%;
+}
+    .header--nav{
+        width: 200px;
+        display: none;
+    }
+    .meny--navbar--block{
+        margin-bottom: 100px;
+    }
+    .meny--navbar{
+        margin-left: -75px;
+        flex-direction: column;
+    }
+.meny{
+    width: 90%;
+}
+.meny--nav{
+    width: 460px;
+    padding:0 0;
+}
+}
+
+@media (max-width: 451px){
+.header{
+    width: 90%;
+}
+.meny{
+    width: 90%;
+}
+}
+
+@media (max-width: 414px){
+.header{
+    width: 90%;
+}
+.meny{
+    width: 90%;
+}
+}
+
+@media (max-width: 400px){
+.header{
+    width: 90%;
+    flex-wrap: wrap;
+}
+.meny{
+    width: 90%;
+}
+
+}
+
+@media (max-width: 375px){
+.header{
+    width: 90%;
+}
+.meny{
+    width: 90%;
+}
+}
+
+@media (max-width: 320px){
+.header{
+    width: 90%;
+}
+.meny{
+    width: 90%;
+}
+}
+
+
+
+
