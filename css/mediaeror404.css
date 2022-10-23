@@ -1,0 +1,30 @@
+@media (max-width: 451px) {
+  .navbar--hero p {
+    margin-left: 70px;
+    font-size: 35px;
+  }
+  .navbar--hero h2 {
+    font-size: 45px;
+    margin-left: 55px;
+  }
+  .navbar--hero h1 {
+    font-size: 65px;
+    margin-left: 60px;
+  }
+}
+@media (max-width: 375px) {
+  .navbar--hero h1 {
+    font-size: 50px;
+    margin-left: 60px;
+  }
+  .navbar--hero h2 {
+    font-size: 35px;
+    margin-left: 55px;
+  }
+  .navbar--hero p {
+    margin-left: 70px;
+    font-size: 25px;
+  }
+}
+
+/*# sourceMappingURL=mediaeror404.css.map */
